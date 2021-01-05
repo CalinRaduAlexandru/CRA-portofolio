@@ -9,18 +9,18 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome to my portofolio',
-  name: 'Calin Radu',
-  subtitle: '',
-  cta: '',
+  title: 'Welcome!',
+  name: 'Călin Radu Alexandru',
+  subtitle: 'Web Developer',
+  cta: 'Contact me!',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'Passionate Junior Developer aspiring to the senior full-stack title.',
+  paragraphTwo: 'Ready for challanges and outside of the box thinking.',
+  paragraphThree: 'There are no problems, only functions!',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
@@ -29,28 +29,28 @@ export const projectsData = [
   {
     id: nanoid(),
     img: 'project.jpg',
-    title: '',
+    title: 'CrownFeel',
+    info: 'Fully-fledged e-commerce platform',
+    info2: 'With Autentification, Backend server, online payment',
+    url: 'https://crownfeel.herokuapp.com/',
+    repo: 'https://github.com/CalinRaduAlexandru/CrownFeel', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project2.jpg',
+    title: 'Quote-generator',
     info: '',
     info2: '',
-    url: '',
+    url: 'https://calinradualexandru.github.io/Quote-Generator/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
+    img: 'project3.jpg',
+    title: 'Infinity-scroll',
     info: '',
     info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
+    url: 'https://calinradualexandru.github.io/Infinity-scroll/',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
 ];
@@ -67,16 +67,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: '',
     },
@@ -90,5 +80,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };

@@ -41,6 +41,12 @@ const Header = () => {
             </span>
           </p>
         </Fade>
+
+        <img
+          src="https://png.pngtree.com/png-vector/20190611/ourmid/pngtree-web-development-illustration-modern-can-be-used-for-landing-pages-web-png-image_1496210.jpg"
+          width="310"
+          height="310"
+        />
       </Container>
     </section>
   );
