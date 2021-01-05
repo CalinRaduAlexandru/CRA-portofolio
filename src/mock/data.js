@@ -2,15 +2,15 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Calin R. Alexandru', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: 'Welcome!',
-  name: 'Călin Radu Alexandru',
+  title: 'Welcome to my portofolio!',
+  name: 'Călin R. Alexandru',
   subtitle: 'Web Developer',
   cta: 'Contact me!',
 };
@@ -30,8 +30,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'CrownFeel',
-    info: 'Fully-fledged e-commerce platform',
-    info2: 'With Autentification, Backend server, online payment',
+    info: 'Fully-fledged e-commerce platform.',
+    info2: 'Autentification, Backend server, Online payment',
     url: 'https://crownfeel.herokuapp.com/',
     repo: 'https://github.com/CalinRaduAlexandru/CrownFeel', // if no repo, the button will not show up
   },
@@ -39,19 +39,19 @@ export const projectsData = [
     id: nanoid(),
     img: 'project2.jpg',
     title: 'Quote-generator',
-    info: '',
-    info2: '',
+    info: 'Random quote generator.',
+    info2: 'Twitter share button',
     url: 'https://calinradualexandru.github.io/Quote-Generator/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/CalinRaduAlexandru/Quote-Generator', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
     img: 'project3.jpg',
     title: 'Infinity-scroll',
-    info: '',
-    info2: '',
+    info: 'Infinit photo loading',
+    info2: 'Pleasent UX',
     url: 'https://calinradualexandru.github.io/Infinity-scroll/',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/CalinRaduAlexandru/Infinity-scroll', // if no repo, the button will not show up
   },
 ];
 
